@@ -79,14 +79,17 @@ print "observe a quantidade\n"
 print len(valenceCl1), len(valenceCl2), len(valenceCl3), len(valenceCl4) 
 
 
-
+#criando os noises
 valenceCl2 = np.array(valenceCl2)
 noiseC2p1 = criarNoise(valenceCl2)
 noiseC2p2 = criarNoise(valenceCl2)
 noiseC2p3 = criarNoise(valenceCl2)
 
-valenceCl1 = np.array(valenceCl1)
-noiseC1 = criarNoise(valenceCl1)
+valenceCl3 = np.array(valenceCl3)
+noiseC3 = criarNoise(valenceCl3)
+
+valenceCl4 = np.array(valenceCl4)
+noiseC4 = criarNoise(valenceCl4)
 
 print valenceCl2[0][45],noiseC2p1[0][45], noiseC2p2[0][45], noiseC2p3[0][45]
 
