@@ -91,6 +91,8 @@ noiseC3 = criarNoise(valenceCl3)
 valenceCl4 = np.array(valenceCl4)
 noiseC4 = criarNoise(valenceCl4)
 
+
+
 print valenceCl2[0][45],noiseC2p1[0][45], noiseC2p2[0][45], noiseC2p3[0][45]
 
 
